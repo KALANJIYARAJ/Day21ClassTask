@@ -34,7 +34,7 @@ async function foo(){
     let index=res1.length-1;
     console.log(res1[index].Active);
     active.innerHTML=`total active cases:${res1[index].Active}`;
-    death.innerHTML=`total active cases:${res1[index].Deaths}`;
-    recovered.innerHTML=`total active cases:${res1[index].Recovered}`;
+    death.innerHTML=`total death:${res1[index].Deaths}`;
+    recovered.innerHTML=`total recovered cases:${res1[index].Recovered}`
 
 }
