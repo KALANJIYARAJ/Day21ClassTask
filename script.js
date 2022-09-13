@@ -1,5 +1,6 @@
 let div = document.createElement("div");
 div.style.textAlign="center";
+div.style.backgroundColor="whitesmoke";
 
 var input= document.createElement("input");
 input.setAttribute("type","text");
